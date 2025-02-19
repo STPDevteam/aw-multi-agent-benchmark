@@ -1,10 +1,10 @@
 # aw-multi-agent-benchmark
 ---
-To start the benchmark:
+### To start the benchmark:
 
 0. Install the dependency:
 ```
-git clone git@github.com:AWE-Net/aw-engine.git
+git clone git@github.com:AWE-Network/aw-engine.git
 
 # note to install lfs, redis-server, pybind and hiredis library if not already
 sudo apt-get update
@@ -33,3 +33,12 @@ redis-server
 ```
 python benchmark.py
 ```
+
+3. Other benchmark scripts are in the `scaling` and `priority` folders.
+
+### Benchmark Results
+![](./benchmark.png)
+
+![](./scaling/benchmark.png)
+
+![](./priority/benchmark.png)
