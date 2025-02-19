@@ -39,6 +39,6 @@ python benchmark.py
 ### Benchmark Results
 ![](./benchmark.png)
 
-![](./scaling/benchmark.png)
+![](./scaling/scaling_benchmark.png)
 
-![](./priority/benchmark.png)
+![](./priority/priority_benchmark.png)
